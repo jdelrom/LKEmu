@@ -35,7 +35,7 @@ namespace LKCamelotV2
             string text = TimeStamp + " " + line;
             lock (locklog)
             {
-                System.IO.File.AppendAllText("Logs.log", text);
+                System.IO.File.AppendAllText("Logs.log", text + Environment.NewLine);
             }
             Console.ForegroundColor = colr;
             Console.WriteLine(text);
