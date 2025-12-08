@@ -1,0 +1,10 @@
+C:\Users\gohan\Documents\github\LKemu\LKEmuV2\bin\Debug\LKCamelotV2.exe
+C:\Users\gohan\Documents\github\LKemu\LKEmuV2\bin\Debug\LKCamelotV2.pdb
+C:\Users\gohan\Documents\github\LKemu\LKEmuV2\bin\Debug\protobuf-net.dll
+C:\Users\gohan\Documents\github\LKemu\LKEmuV2\bin\Debug\protobuf-net.pdb
+C:\Users\gohan\Documents\github\LKemu\LKEmuV2\bin\Debug\protobuf-net.xml
+C:\Users\gohan\Documents\github\LKemu\LKEmuV2\obj\x86\Release\LKCamelotV2.csproj.AssemblyReference.cache
+C:\Users\gohan\Documents\github\LKemu\LKEmuV2\obj\x86\Release\LKCamelotV2.csproj.CoreCompileInputs.cache
+C:\Users\gohan\Documents\github\LKemu\LKEmuV2\obj\x86\Release\LKCamelo.22EE2A51.Up2Date
+C:\Users\gohan\Documents\github\LKemu\LKEmuV2\obj\x86\Release\LKCamelotV2.exe
+C:\Users\gohan\Documents\github\LKemu\LKEmuV2\obj\x86\Release\LKCamelotV2.pdb
