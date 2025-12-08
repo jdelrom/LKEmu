@@ -14,7 +14,7 @@ namespace LKCamelotV2.Scripts
             switch (name)
             {
                 case "PIGMY":
-                    tmob = new Object.Monster("PIGMY", 15, 25, 1, 16, 2, 15)
+                    tmob = new Object.Monster("PIGMY", 15, 25, 1, 16, 2, 45)
                     {
                         WalkSpeed = 1250,
                         AggroRange = 5,
