@@ -19,6 +19,7 @@ namespace LKCamelotV2.Scripts
             //    return;
             switch (command)
             {
+                
                 case "@autohit":
                     playr.State.autohit = !playr.State.autohit;
                     break;
@@ -50,6 +51,55 @@ namespace LKCamelotV2.Scripts
                     if (map != null)
                         World.World.ChangeMap(playr, map, tx, ty);
                     break;
+                case "@learn":
+                    if (playr.Name != "PATHFINDER" && playr.Name.ToLower() != "sir")
+                        return;
+                    if (suffix.Length == 0)
+                        return;
+                    // rejoin the spell name (spell names have spaces, e.g. "DRAGON OF FIRE")
+                    var spellName = string.Join(" ", suffix).ToUpper().Trim();
+                    Object.Spell learnSp;
+                    if (!Spells.SpellList.TryGetValue(spellName, out learnSp))
+                    {
+                        playr.WriteWarn("No spell named '" + spellName + "'.");
+                        return;
+                    }
+                    // if already known, bump its level; else grant fresh at level 1 (bypasses reqs)
+                    var existing = playr.Spells.HasSpell(learnSp);
+                    if (existing.Value != null)
+                    {
+                        if (existing.Value.Level < learnSp.MaxLevel)
+                            existing.Value.Level++;
+                        playr.gameLink.Send(new Network.GameOutMessage.CreateSlotMagic(existing.Value, existing.Key).Compile());
+                    }
+                    else
+                    {
+                        var fs = playr.Spells.FreeSlot;
+                        if (!fs.Key)
+                        {
+                            playr.WriteWarn("No free spell slots.");
+                            return;
+                        }
+                        var leaf = new Player.LeafSpell() { Level = 1, SubLevel = 0, Name = learnSp.Name, Spell = learnSp };
+                        playr.Spells.LearnedSpells[fs.Value] = leaf;
+                        playr.gameLink.Send(new Network.GameOutMessage.CreateSlotMagic(leaf, fs.Value).Compile());
+                    }
+                    playr.WriteWarn("Learned " + spellName + ".");
+                    break;
+ 
+                case "@level":
+                    if (playr.Name != "PATHFINDER" && playr.Name.ToLower() != "sir")
+                        return;
+                    if (suffix.Length == 0)
+                        return;
+                    int newlvl;
+                    if (int.TryParse(suffix[0], out newlvl))
+                    {
+                        playr.State.Level = newlvl;
+                        playr.gameLink.Send(new Network.GameOutMessage.SetLevelGold(playr).Compile());
+                        playr.WriteWarn("Level set to " + newlvl + ".");
+                    }
+                    break;    
                 case "@deposit":
                 case "@deposited":
                     if (playr.Position.CurMap.Name != "Loen")

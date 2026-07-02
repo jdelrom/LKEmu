@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -66,6 +66,8 @@ namespace LKCamelotV2.Object
         public int ClassReq;
         public int Dam;
         public int DamPl;
+        public E_Race AffinityRace = 0;   // 0 = no affinity
+        public float AffinityBonus = 0f;   // e.g. 0.10f = +10% vs AffinityRace
         public int ManaCost;
         public int ManaCostPl;
         public float FManaCost;

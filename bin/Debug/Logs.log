@@ -97,3 +97,104 @@
 12/08/2025 17:06 +127.0.0.1  connid: 1
 12/08/2025 17:06 OPCode: 2 unknown
 12/08/2025 17:06 OPCode: FF unknown
+12/15/2025 13:13 Starting time ticker
+12/15/2025 13:13 Loading Scripts
+12/15/2025 13:13 Adding Map: Rest diskName: erest.map
+12/15/2025 13:13 Adding Map: St. Andover diskName: 32.map
+12/15/2025 13:13 Adding Map: Loen diskName: loen.map
+12/15/2025 13:13 Adding Map: Arnold diskName: anold.map
+12/15/2025 13:13 Adding Map: Miner0 diskName: miner0.map
+12/15/2025 13:13 Adding Map: Miner1 diskName: miner1.map
+12/15/2025 13:13 Adding Map: Miner2 diskName: miner2.map
+12/15/2025 13:13 Adding Map: Miner3 diskName: miner3.map
+12/15/2025 13:13 Adding Map: PS1 diskName: ps01.map
+12/15/2025 13:13 Adding Map: PS2 diskName: ps02.map
+12/15/2025 13:13 Adding Map: PS3 diskName: ps03.map
+12/15/2025 13:13 Adding Map: Weakly1 diskName: weakly1.map
+12/15/2025 13:13 Adding Map: Weakly2 diskName: weakly2.map
+12/15/2025 13:13 Adding Map: Weakly3 diskName: weakly3.map
+12/15/2025 13:13 Adding Map: Weakly4 diskName: weakly4.map
+12/15/2025 13:13 Adding Map: Weakly5 diskName: weakly5.map
+12/15/2025 13:13 Adding Map: Skel1 diskName: skel1.map
+12/15/2025 13:13 Adding Map: Skel2 diskName: skel2.map
+12/15/2025 13:13 Adding Map: Skel3 diskName: skel3.map
+12/15/2025 13:13 Adding Map: Skel4 diskName: skel4.map
+12/15/2025 13:13 Adding Map: Skel5 diskName: skel5.map
+12/15/2025 13:13 Adding Map: Beginner diskName: estart2.map
+12/15/2025 13:13 Adding Map: Biggun1 diskName: estart4.map
+12/15/2025 13:13 Adding Map: Biggun2 diskName: estart3.map
+12/15/2025 13:13 Adding Map: ELevel diskName: elevel.map
+12/15/2025 13:13 Adding Map: 010 diskName: 010map.map
+12/15/2025 13:13 Adding Map: 020 diskName: 020map.map
+12/15/2025 13:13 Adding Map: 030 diskName: 030map.map
+12/15/2025 13:13 Adding Map: 040 diskName: 040map.map
+12/15/2025 13:13 Adding Map: 050 diskName: 050map.map
+12/15/2025 13:13 Adding Map: 060 diskName: 060map.map
+12/15/2025 13:13 Adding Map: 061 diskName: 061map.map
+12/15/2025 13:13 Adding Map: 070 diskName: 070map.map
+12/15/2025 13:13 Adding Map: 071 diskName: 071map.map
+12/15/2025 13:13 Adding Map: 080 diskName: 080map.map
+12/15/2025 13:13 Adding Map: 081 diskName: 081map.map
+12/15/2025 13:13 Adding Map: VV1 diskName: vv1.map
+12/15/2025 13:13 Adding Map: VV2 diskName: vv2.map
+12/15/2025 13:13 Adding Map: VV3 diskName: vv3.map
+12/15/2025 13:13 Adding Map: VV4 diskName: vv4.map
+12/15/2025 13:13 Adding Map: VV5 diskName: vv5.map
+12/15/2025 13:13 Adding Map: Cave diskName: Cave.map
+12/15/2025 13:13 Adding Map: Cave1 diskName: cave1.map
+12/15/2025 13:13 Adding Map: Cave2 diskName: cave2.map
+12/15/2025 13:13 Adding Map: Golem diskName: golem.map
+12/15/2025 13:13 Adding Map: Golem1 diskName: golem1.map
+12/15/2025 13:13 Adding Map: Golem2 diskName: golem2.map
+12/15/2025 13:13 Adding Map: Golem3 diskName: golem3.map
+12/15/2025 13:13 Adding Map: Golem12 diskName: golem12.map
+12/15/2025 13:13 Adding Map: Miro1 diskName: miro1.map
+12/15/2025 13:13 Adding Map: Venture4 diskName: estart4.map
+12/15/2025 13:13 Adding Map: Great diskName: great.map
+12/15/2025 13:13 Adding Map: ItemVillage diskName: ivillage.map
+12/15/2025 13:13 Adding Map: ItemPigmy1 diskName: ipigmy1.map
+12/15/2025 13:13 Adding Map: ItemPigmy2 diskName: ipigmy2.map
+12/15/2025 13:13 Adding Map: ItemPigmy3 diskName: ipigmy3.map
+12/15/2025 13:13 Adding Map: ItemZomby1 diskName: izomby1.map
+12/15/2025 13:13 Adding Map: ItemZomby2 diskName: izomby2.map
+12/15/2025 13:13 Adding Map: ItemZomby3 diskName: izomby3.map
+12/15/2025 13:13 Adding Map: ItemSkel1 diskName: iskel1.map
+12/15/2025 13:13 Adding Map: ItemSkel2 diskName: iskel2.map
+12/15/2025 13:13 Adding Map: ItemSkel3 diskName: iskel3.map
+12/15/2025 13:13 Adding Map: ItemButcher1 diskName: ibut1.map
+12/15/2025 13:13 Adding Map: ItemButcher2 diskName: ibut2.map
+12/15/2025 13:13 Adding Map: ItemButcher3 diskName: ibut3.map
+12/15/2025 13:13 Adding Map: ItemMummy1 diskName: imummy1.map
+12/15/2025 13:13 Adding Map: ItemMummy2 diskName: imummy2.map
+12/15/2025 13:13 Adding Map: ItemMummy3 diskName: imummy3.map
+12/15/2025 13:13 Adding Map: ItemStone1 diskName: istone1.map
+12/15/2025 13:13 Adding Map: ItemStone2 diskName: istone2.map
+12/15/2025 13:13 Adding Map: ItemStone3 diskName: istone3.map
+12/15/2025 13:13 Adding Map: ItemStone4 diskName: istone4.map
+12/15/2025 13:13 Adding Map: ItemDummy1 diskName: imummy1.map
+12/15/2025 13:13 Adding Map: ItemDummy2 diskName: imummy2.map
+12/15/2025 13:13 Adding Map: ItemDummy3 diskName: imummy3.map
+12/15/2025 13:13 Adding Map: ItemDummy4 diskName: istone3.map
+12/15/2025 13:13 Adding Map: ItemDummy5 diskName: istone4.map
+12/15/2025 13:13 Adding Map: ItemWarDummy1 diskName: imummy1.map
+12/15/2025 13:13 Adding Map: ItemWarDummy2 diskName: imummy2.map
+12/15/2025 13:13 Adding Map: ItemWarDummy3 diskName: imummy3.map
+12/15/2025 13:13 Adding Map: ItemWarDummy4 diskName: istone3.map
+12/15/2025 13:13 Adding Map: ItemWarDummy5 diskName: istone4.map
+12/15/2025 13:13 Adding Map: ItemHardboil1 diskName: imummy1.map
+12/15/2025 13:13 Adding Map: ItemHardboil2 diskName: imummy2.map
+12/15/2025 13:13 Adding Map: ItemHardboil3 diskName: imummy3.map
+12/15/2025 13:13 Adding Map: ItemHardboil4 diskName: istone3.map
+12/15/2025 13:13 Adding Map: ItemHardboil5 diskName: istone4.map
+12/15/2025 13:13 Adding Map: ItemGolem1 diskName: imummy1.map
+12/15/2025 13:13 Adding Map: ItemGolem2 diskName: imummy2.map
+12/15/2025 13:13 Adding Map: ItemGolem3 diskName: imummy3.map
+12/15/2025 13:13 Adding Map: ItemGolem4 diskName: istone3.map
+12/15/2025 13:13 Adding Map: ItemGolem5 diskName: istone4.map
+12/15/2025 13:13 Starting tick thread machine
+12/15/2025 13:13 Starting Game Server on port: 1811
+12/15/2025 13:14 +127.0.0.1  connid: 1
+12/15/2025 13:14 OPCode: 2 unknown
+12/15/2025 13:14 OPCode: FF unknown
+12/15/2025 13:20 OPCode: 41 unknown
+12/15/2025 13:20 OPCode: 42 unknown

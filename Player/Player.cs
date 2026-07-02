@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -53,6 +53,12 @@ namespace LKCamelotV2.Player
         public Spells Spells;
         [ProtoMember(6)]
         E_Class _Class = E_Class.Beginner;
+        [ProtoMember(7)]
+        public string TraceMap = "";
+        [ProtoMember(8)]
+        public int TraceX = 0;
+        [ProtoMember(9)]
+        public int TraceY = 0;
         internal E_Class Class
         {
             get

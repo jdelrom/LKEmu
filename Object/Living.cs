@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Collections.Concurrent;
 using System.Linq;
@@ -201,6 +201,11 @@ namespace LKCamelotV2.Object
         public virtual void TakeDamage(Living caster, Player.LeafSpell spell)
         {
             var dam = spell.Spell.Dam + spell.Spell.DamPl * spell.Level;
+
+            // AFFINITY: opt-in bonus damage vs a specific race (0 = no effect, existing spells unchanged)
+            if (spell.Spell.AffinityRace != 0 && (this.Race & spell.Spell.AffinityRace) != 0)
+                dam = (int)(dam * (1f + spell.Spell.AffinityBonus));
+
             var tdam = dam - AC;
             if (tdam <= 0)
                 tdam = 1;
